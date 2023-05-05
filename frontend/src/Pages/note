@@ -1,0 +1,9 @@
+<select name='category' onChange={handlechange11} value={product.category} >
+                        {data.map((item) => {
+                                return (
+                                   
+                                        <option value={item.categoryname}>{item.categoryname}</option>
+                                        
+                                )
+                            })}
+                        </select>
